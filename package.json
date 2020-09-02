@@ -1,0 +1,31 @@
+{
+  "name": "vue-stripe-wrapper",
+  "version": "1.0.0",
+  "description": "Stripe wrapper for vue",
+  "main": "dist/vue-stripe-wrapper.min.js",
+  "scripts": {
+    "build": "yarn bili --input src/index.js --output dist/vue-stripe-wrapper.js --plugins babel --format umd,umd-min"
+  },
+  "keywords": [
+    "vue",
+    "stripe"
+  ],
+  "author": "Arthur Alagulyan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurAlagul/vue-stripe-wrapper"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "bili": "^2.1.2",
+    "pre-commit": "^1.2.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "yarn": "^1.22.5"
+  }
+}
